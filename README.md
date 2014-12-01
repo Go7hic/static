@@ -1,7 +1,8 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the static  application for
+[*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
+by [Go7hic](http://dyy.im/).
+
 
 Things you may want to cover:
 
