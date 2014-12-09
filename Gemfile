@@ -4,10 +4,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
-
+gem 'bootstrap-sass', '3.3.0'
 group :development, :test do
   gem 'sqlite3', '1.3.6'
   gem 'rspec-rails', '2.11.0'
+  gem 'guard-rspec', '1.2.1'
+  gem 'guard-spork', '1.2.0'
+  gem 'spork', '0.9.2'
 end
 group :assets do
   gem 'sass-rails', '4.0.3'
@@ -39,6 +42,8 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'growl', '1.0.3'
 end
 
 # Use debugger
