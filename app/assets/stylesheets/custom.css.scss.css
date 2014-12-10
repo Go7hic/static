@@ -1,6 +1,7 @@
 
 @import "bootstrap";
 $grayMediumLight: #eaeaea;
+$lightGray: #555;
 html {
     overflow-y: scroll;
 }
