@@ -5,12 +5,14 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '3.3.0'
+gem 'bcrypt', '3.1.7'
 group :development, :test do
   gem 'sqlite3', '1.3.6'
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+  gem 'annotate', '2.5.0'
 end
 group :assets do
   gem 'sass-rails', '4.0.3'
